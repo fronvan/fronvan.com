@@ -13,7 +13,7 @@ html {
   user-select: none;
 }
 
-#display {
+.display {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,6 +23,23 @@ html {
   align-items: center;
   justify-content: center;
   pointer-events: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  height: calc(4rem * 1.2 + 1.15rem * 1.4);
+  width: auto;
+  flex-shrink: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
